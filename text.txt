@@ -1,4 +1,4 @@
-import time#表白爱心
+﻿import time#表白爱心
 sentence=' My Dear, I love you forever!'
 for char in sentence.split():
     allChar=[]
@@ -15,3 +15,4 @@ for char in sentence.split():
         allChar+=lst
     print('\n'.join(allChar))
     time.sleep(1)
+hello teacher
