@@ -1,0 +1,15 @@
+def f(l,x):
+    left=0
+    right=len(l)-1
+    while left<=right:
+        mid=int((left+right)/2)
+        if x>l[mid]:
+            left=mid+1
+        elif x<l[mid]:
+            right=mid-1
+        else:
+            return ('找到了')
+    return('zhaobudao')
+lis=[1,4,5,12,45,66]
+a=int(input('input: '))
+print(f(lis,a))
