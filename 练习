@@ -1,0 +1,12 @@
+j=0
+while j<3:
+    k=0
+    while k<5:
+        if (j/5)==0:
+            print(0)
+            print(j)
+        elif(j/5)==1:
+            print(1)
+            print(j)
+        k+=1
+    j+=1
